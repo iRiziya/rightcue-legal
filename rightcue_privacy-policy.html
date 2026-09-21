@@ -24,7 +24,7 @@
 </head>
 <body>
 <h1>Privacy Policy for RightCue</h1>
-<p><strong>Last updated: August 24, 2026</strong></p>
+<p><strong>Last updated: September 21, 2026</strong></p>
 <p>RightCue ("the app," "we," "us") is developed by Rinkal Chahodiya. This policy explains what information the app accesses, how it's used, and what it does not do.</p>
 
 <h2>What RightCue does</h2>
@@ -33,11 +33,15 @@
 <h2>Information we access & Third-Party Services</h2>
 <p><strong>App usage detection (Screen Time / Family Controls).</strong> With your permission, RightCue uses Apple's DeviceActivity and Family Controls frameworks to detect when you've spent a set amount of time in an app you've chosen. This detection happens entirely on your device. RightCue never receives the names of the apps you've selected, cannot see what you do inside them, and does not transmit this information anywhere — Apple's frameworks are specifically designed so that this data never leaves your device.</p>
 
-<p><strong>Tasks you create.</strong> Task titles, due dates, and priority flags you enter are stored locally on your device using Apple's SwiftData storage. Your private task text is never uploaded to any custom servers.</p>
+<p><strong>Time in tracked apps (Insights).</strong> The Insights tab can show how long you spent in the apps you track. This view is drawn by Apple's Screen Time framework inside a system extension; the minutes are shown to you on your device only. RightCue itself cannot read, store, or send them.</p>
+
+<p><strong>Voice input (optional).</strong> If you use the microphone button to add or edit a task, RightCue asks for access to the microphone and to speech recognition. Your voice is turned into text on your device using Apple's on-device speech recognition. RightCue never records, stores, or sends audio; the resulting text is saved only as your task, on your device. You can turn off access at any time in <strong>Settings → Privacy &amp; Security → Microphone</strong> and <strong>Speech Recognition</strong>.</p>
+
+<p><strong>Tasks you create.</strong> Task titles, notes, due dates, and priority flags you enter are stored locally on your device using Apple's SwiftData storage. When you type or say a date in a task title (for example, "tomorrow 5pm"), it is read on your device. A record of your reminders and what you chose (for example, going back to your task) is kept on your device for up to 90 days to show your Insights. None of this is uploaded to any servers.</p>
 
 <p><strong>Analytics and Diagnostics (Google Firebase).</strong> RightCue uses Google Firebase Analytics and Crashlytics to understand app stability, feature usage, and improve app performance. This service collects anonymous technical diagnostics (crash stack traces, non-fatal errors, app launch times) and aggregated app interaction events (such as task completion funnels and feature usage). Task titles are categorized locally on-device for high-level intent categories before logging to preserve your privacy. For more information, please see <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
 
-<p><strong>Purchase information (RevenueCat & Apple).</strong> If you subscribe to RightCue Pro, purchase processing is handled by Apple's App Store and by RevenueCat, our subscription management provider. RevenueCat receives standard anonymous transaction data (such as subscription status and renewal dates) needed to verify your subscription. RightCue never collects or has access to your payment card details. See RevenueCat's privacy policy at <a href="https://www.revenuecat.com/privacy/" target="_blank">revenuecat.com/privacy</a>.</p>
+<p><strong>Purchase information (RevenueCat & Apple).</strong> If you buy RightCue Pro, purchase processing is handled by Apple's App Store and by RevenueCat, our purchase management provider. RevenueCat receives standard anonymous transaction data (such as purchase status, and renewal dates for subscriptions bought before version 1.4) needed to verify your purchase. RightCue never collects or has access to your payment card details. See RevenueCat's privacy policy at <a href="https://www.revenuecat.com/privacy/" target="_blank">revenuecat.com/privacy</a>.</p>
 
 <p><strong>House Cross-Promotion.</strong> RightCue may display non-targeted promotions for other indie apps developed by the same creator. No personal data or cross-app tracking identifiers are shared with third-party advertising networks.</p>
 
@@ -52,7 +56,7 @@
 </ul>
 
 <h2>Data retention and deletion</h2>
-<p>Task data lives locally on your device and is deleted when you delete the app. You can revoke Screen Time permissions at any time in <strong>Settings → Screen Time → RightCue</strong>, or disable notifications in <strong>Settings → Notifications → RightCue</strong>.</p>
+<p>Task data lives locally on your device and is deleted when you delete the app. You can revoke Screen Time permissions at any time in <strong>Settings → Screen Time → RightCue</strong>, disable notifications in <strong>Settings → Notifications → RightCue</strong>, or turn off microphone and speech recognition access in <strong>Settings → Privacy &amp; Security</strong>.</p>
 
 <h2>Children's privacy</h2>
 <p>RightCue is not directed at children and does not knowingly collect data from children under 13.</p>
